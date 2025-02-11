@@ -10,13 +10,12 @@ import (
 	"path/filepath"
 	"syscall"
 
-	"github.com/base-org/keyspace-recovery-service/proving"
-	"github.com/base-org/keyspace-recovery-service/proving/storage"
-	recover_rpc "github.com/base-org/keyspace-recovery-service/rpc"
+	"github.com/base/keyspace-recovery-service/proving"
+	"github.com/base/keyspace-recovery-service/proving/storage"
+	recover_rpc "github.com/base/keyspace-recovery-service/rpc"
 	"github.com/ethereum/go-ethereum/log"
 	"github.com/ethereum/go-ethereum/node"
 	"github.com/ethereum/go-ethereum/rpc"
-	"github.com/urfave/cli/v2"
 )
 
 const Version = "v0.0.1"

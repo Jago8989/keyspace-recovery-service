@@ -1,4 +1,4 @@
-module github.com/base-org/keyspace-recovery-service
+module github.com/base/keyspace-recovery-service
 
 go 1.22.1
 

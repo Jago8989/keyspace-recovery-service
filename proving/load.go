@@ -11,7 +11,7 @@ import (
 	"github.com/consensys/gnark/constraint"
 	"github.com/ethereum/go-ethereum/log"
 
-	"github.com/base-org/keyspace-recovery-service/proving/storage"
+	"github.com/base/keyspace-recovery-service/proving/storage"
 	pbls12377 "github.com/consensys/gnark/backend/plonk/bls12-377"
 	pbn254 "github.com/consensys/gnark/backend/plonk/bn254"
 	pbw6761 "github.com/consensys/gnark/backend/plonk/bw6-761"

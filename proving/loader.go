@@ -5,7 +5,7 @@ import (
 	"math/big"
 	"sync"
 
-	"github.com/base-org/keyspace-recovery-service/proving/storage"
+	"github.com/base/keyspace-recovery-service/proving/storage"
 	"github.com/consensys/gnark/backend/witness"
 	"github.com/ethereum/go-ethereum/log"
 )

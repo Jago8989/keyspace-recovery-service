@@ -5,8 +5,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/base-org/keyspace-recovery-service/circuits"
-	"github.com/base-org/keyspace-recovery-service/proving"
+	"github.com/base/keyspace-recovery-service/circuits"
+	"github.com/base/keyspace-recovery-service/proving"
 	bls12377 "github.com/consensys/gnark/backend/plonk/bls12-377"
 	"github.com/consensys/gnark/std/math/emulated"
 	gecdsa "github.com/consensys/gnark/std/signature/ecdsa"

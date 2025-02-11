@@ -6,8 +6,8 @@ import (
 	"math/big"
 	"runtime/debug"
 
-	"github.com/base-org/keyspace-recovery-service/circuits"
-	"github.com/base-org/keyspace-recovery-service/proving/storage"
+	"github.com/base/keyspace-recovery-service/circuits"
+	"github.com/base/keyspace-recovery-service/proving/storage"
 	"github.com/consensys/gnark/backend/plonk"
 	"github.com/consensys/gnark/frontend"
 	"github.com/ethereum/go-ethereum/log"

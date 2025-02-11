@@ -6,7 +6,7 @@ import (
 	"math/big"
 	"runtime/debug"
 
-	"github.com/base-org/keyspace-recovery-service/circuits"
+	"github.com/base/keyspace-recovery-service/circuits"
 	"github.com/consensys/gnark/backend"
 	"github.com/consensys/gnark/backend/plonk"
 	"github.com/consensys/gnark/backend/witness"

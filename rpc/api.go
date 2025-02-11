@@ -4,8 +4,8 @@ import (
 	"errors"
 	"math/big"
 
-	"github.com/base-org/keyspace-recovery-service/proving"
-	"github.com/base-org/keyspace-recovery-service/signatures"
+	"github.com/base/keyspace-recovery-service/proving"
+	"github.com/base/keyspace-recovery-service/signatures"
 	"github.com/ethereum/go-ethereum/common/hexutil"
 	"github.com/ethereum/go-ethereum/log"
 )
